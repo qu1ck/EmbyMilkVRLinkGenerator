@@ -1,8 +1,14 @@
 # EmbyMilkVRLinkGenerator
 
-Simple script that scans Emby server for video files and generates mvrl files consumable by MilkVR app for Gear VR. Copy generated files to your phone's MilkVR directory and you can stream videos directly from your server!
+Simple script that scans Emby server for video files and generates mvrl 
+files consumable by MilkVR app for Gear VR. Copy generated files to your 
+phone's MilkVR directory and you can stream videos directly from your 
+server!
 
-It supports tags for automatically supplying 3d format for MilkVR player, just tag the video or folder containing the video with one of supported formats in emby metadata editor and the script will pick it up.
+It supports tags for automatically supplying 3d format for MilkVR 
+player, just tag the video or folder containing the video with one of 
+supported formats in emby metadata editor and the script will pick it 
+up.
 
 Supported tags are:
 
@@ -14,9 +20,11 @@ Supported tags are:
 "sib3d", "_planetarium", "_fulldome", "_v360", "_rtxp"
 ```
 
-For more info including what those formats actually look like see [MilkVR faq](https://samsungmilkvr.com/portal/content/faq#video-types)
+For more info including what those formats actually look like see 
+[MilkVR faq](https://samsungmilkvr.com/portal/content/faq#video-types)
 
-The script has a few more useful options, here is the usage message that should be self explanatory:
+The script has a few more useful options, here is the usage message that
+ should be self explanatory:
 
 ```
 Usage: <main class> [options]
@@ -48,3 +56,5 @@ Usage: <main class> [options]
        MilkVR video type
        Default: _2dp
 ```
+
+Note: script **requires** java 8 to run
