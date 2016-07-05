@@ -42,7 +42,7 @@ public class Main {
     private String password = "";
 
     @Parameter(names = {"-s", "--server"}, description = "Emby server url")
-    private final String serverAddress = "http://192.168.0.1:8096";
+    private String serverAddress = "http://192.168.0.1:8096";
 
     @Parameter(
             names = {"-d", "--serverDirectory"},

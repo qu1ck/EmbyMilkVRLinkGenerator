@@ -17,3 +17,5 @@
 .idea/mongoSettings.xml
 
 *.iws
+
+/out/
